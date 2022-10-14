@@ -1,0 +1,64 @@
+node-object-assign (4.1.1-6) unstable; urgency=medium
+
+  * Team upload.
+  * Fix d/watch match pattern
+
+ -- Gordon Ball <gordon@chronitis.net>  Fri, 22 Oct 2021 18:19:31 +0000
+
+node-object-assign (4.1.1-5) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 15 Sep 2021 10:15:04 +0100
+
+node-object-assign (4.1.1-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Update standards version to 4.4.1, no changes needed.
+  * Remove obsolete fields Name, Contact from debian/upstream/metadata.
+  * Apply multi-arch hints.
+    + node-object-assign: Add Multi-Arch: foreign.
+  * Set upstream metadata fields: Bug-Submit.
+  * Update standards version to 4.5.0, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 28 Aug 2021 21:08:51 +0100
+
+node-object-assign (4.1.1-3) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Fix debian/copyright
+  * Switch install to pkg-js-tools
+  * Remove bad link to object.assign (Closes: #935979)
+  * Switch upstream test from ava to tape
+  * Enable upstream test using pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 28 Aug 2019 18:10:48 +0200
+
+node-object-assign (4.1.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Provide object.assign compatibility
+  * Bump debhelper compatibility level to 11
+  * Bump Standards-Version to 4.2.1 (no changes needed)
+  * Use salsa.debian.org in Vcs-* fields
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 31 Oct 2018 20:00:52 +0530
+
+node-object-assign (4.1.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 23 Jan 2018 16:30:30 +0530
+
+node-object-assign (4.1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #835899)
+
+ -- Sruthi Chandran <srud@disroot.org>  Mon, 29 Aug 2016 12:52:11 +0530
