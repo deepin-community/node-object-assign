@@ -1,3 +1,11 @@
+node-object-assign (4.1.1-7) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Update standards version to 4.6.1, no changes needed.
+  * Apply multi-arch hints. + node-object-assign: Add :any qualifier for nodejs dependency.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 21 Nov 2022 09:57:35 +0000
+
 node-object-assign (4.1.1-6) unstable; urgency=medium
 
   * Team upload.
